@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lets larp</title>
+    <style>
+        body {
+            /* Используем вашу картинку background.jpg с компьютера */
+            background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.75);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin: 10px 0 5px 0;
+            color: #38bdf8;
+        }
+        .tagline {
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #e2e8f0;
+            margin: 20px 0 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 5px;
+        }
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+        .hobby {
+            background: rgba(51, 65, 85, 0.6);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .links a {
+            display: block;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        .links a:hover {
+            background: #7dd3fc;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- Используем вашу аватарку avatar.jpg с компьютера -->
+    <img src="avatar.jpg" alt="Profile Picture" class="profile-img">
+
+    <h1>nulcaza</h1>
+    <div class="tagline">info site</div>
+
+    <div class="section-title">hobbies</div>
+    <div class="interests">
+        <span class="hobby"> gaming</span>
+        <span class="hobby"> Coding</span>
+    </div>
+
+    <div class="section-title">Links & Contact</div>
+    <div class="links">
+        <a href="https://t.me/nulcaza" target="_blank">Telegram</a>
+    </div>
+</div>
+
+</body>
+</html>
